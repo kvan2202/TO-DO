@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <script src="todo.js"></script>
+    <div class="main">
+        <span class="welcome">
+            <h1>WORK TO-DOS</h1>
+        </span>
+        <span class="des">
+            <h4>Enter text into the input field to add items in your list.</h4>
+        </span>
+        <span class="complete">
+            <h4>click the item to mark it as complete. </h4>
+        </span>
+        <span class="incomplete">
+            <h4>Click the "X" to remove the item from your list.</h4>
+        </span>
+        <div class="inputs">
+            <input type="text" id="input" placeholder="New item...">
+            <button onclick="enter()">
+                <span class="material-symbols-outlined">
+                done
+                </span>
+            </button>
+        </div>
+        <div class="display">
+            <ul id="list">
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

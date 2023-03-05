@@ -1,0 +1,68 @@
+body
+{
+    background-color: rgb(71, 116, 116);
+}
+.main
+{
+    text-align: center;
+}
+.welcome h1
+{
+    text-decoration: underline;
+    color: white;
+}
+.des h4
+{
+    color: yellow;
+}
+.complete h4
+{
+    color: lightgreen;
+}
+.incomplete h4
+{
+    color: rgb(73, 73, 73);
+}
+.inputs
+{
+    display: flex;
+    justify-content: center;
+}
+.inputs button
+{
+    margin-left: 25px;
+    border-radius: 8px;
+}
+.inputs input
+{
+    width: 545px;
+    border-radius: 10px;
+    height: 28px;
+}
+.display{
+    display: flex;
+    margin-left: 513px;
+    margin-top: 55px;
+}
+.display ul{
+    width: 10px;
+}
+.display li{
+    padding-top: 5px;
+    margin-top: 25px;
+    width: 382px;
+    height: 25px;
+    background-color: burlywood;
+    border-radius: 11px;
+    border: 2px solid black;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.display li button{
+    margin-left: 245px ;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#boom{
+    display: none;
+}
